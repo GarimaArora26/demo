@@ -1,0 +1,19 @@
+{
+    "requires": {
+        "auth": {
+            "users": {
+                "alice": {
+                    "tenant": "t1",
+                    "roles": [
+                        "cds.Subscriber",
+                        "admin",
+                        "readers"
+                    ],
+                    "attr": {
+                        "country": "in"
+                    }
+                }
+            }
+        }
+    }
+}
